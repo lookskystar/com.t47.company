@@ -1,0 +1,144 @@
+/* CSS Document */
+
+/*超链接无下划线样式*/
+A
+{
+/*color:#FF9900;*/
+color:#666666;
+text-decoration:none;
+font-size:12px;
+}
+A:hover
+{
+color:#0099FF;
+text-decoration:none;
+}
+
+
+#userLogin
+{
+ 
+	background-image:url(images/menu.gif);
+	/*
+	背景重复属性决定一个指定的背景图象如何被重复。值为repeat-x时，图象横向重复，当值为
+repeat-y时图象纵向重复。例如:
+BODY { background: white url(candybar.gif);
+       background-repeat: repeat-x }
+　　在以上例子中, 图象只会被横向平铺。
+*/
+    background-repeat:repeat-y;
+	background-repeat:repeat-x;
+	height:30px;
+	width:800px;
+	color:#FFFFFF;
+	padding-left:0px;
+	padding-top:0px;
+	top: 0px;
+	left: 0px;
+		  
+}
+#userLogin
+{
+		  height:33px;
+		  overflow:hidden;
+		  color:#FFFFFF;
+		  padding-top:2px;
+}
+body
+{
+         font-size:12px;
+		 font-family:"宋体";
+}
+.user
+{
+         border:#CCCCCC;
+		 height:15px;
+		 width:100px;
+		 border-style:solid;
+		 border-width:1px;
+		
+}
+
+.userPwd
+{
+		 border:#CCCCCC;
+		 height:15px;
+		 width:100px;
+		 border-style:solid;
+		 border-width:1px;
+}
+.btn
+{
+         background-image:url(images/login.gif);
+	     border:#FFFF33;
+		 height:22px;
+		 width:46px;
+		 border-style:solid;
+		 border-width:0px;
+}
+td
+{
+		font-size:12px;
+		color:#666666;
+}
+#msg
+{
+font-size:12px;
+color:#999999;
+
+}
+#picAdv
+{
+border-width:0px;
+}
+
+.mouseOverStyle
+{
+color:#FF0000;
+}
+.mouseOutStyle
+{
+color:#7cc0fa;
+}
+
+.newUser 
+{
+color:#0000FF;
+}
+.btn1
+{
+background-image:url(images/btn_bg.gif);
+font-size:12px;
+color:#333333;
+width:225; 
+height:27; 
+padding-top:6px; 
+padding-left:40px;
+}
+
+.txtAndAreaAndSelect
+{
+         border:#7cc0fa;
+		 height:15px;
+		 border-style:solid;
+		 border-width:1px;
+		
+}
+.Area
+{
+border:1px #7cc0fa solid;
+}
+.subOver
+{
+border:none;
+width:78px;
+height:28px;
+background-image:url(images/submit2.gif);
+}
+.subOut
+{
+border:none;
+width:78px;
+height:28px;
+background-image:url(images/submit1.gif);
+}

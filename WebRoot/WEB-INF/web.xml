@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+
+
+  <!-- fckeditor xml file Star1-->
+<servlet>
+    	<servlet-name>Connector</servlet-name>
+    	<servlet-class>
+    	com.t47.bbs.fckeditor.ConnectorServlet
+    	</servlet-class>
+    	<load-on-startup>1</load-on-startup>
+    </servlet>
+  <servlet>
+    <servlet-name>AddProductToCartServlet</servlet-name>
+    <servlet-class>web.AddProductToCartServlet</servlet-class>
+  </servlet>
+
+       <!-- fckeditor xml file End1-->
+       
+ 
+
+  
+  
+      <!-- fckeditor xml file Star1-->
+      <servlet-mapping>
+    	<servlet-name>Connector</servlet-name>
+    	<url-pattern>
+    	/forum/fckeditor/editor/filemanager/connectors/*
+    	</url-pattern>
+    </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddProductToCartServlet</servlet-name>
+    <url-pattern>/AddProductToCartServlet</url-pattern>
+  </servlet-mapping>
+       <!-- fckeditor xml file End1-->
+       
+ 
+
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+   
+</web-app>
+
+
+
+    
+    
+
+
+
+
+

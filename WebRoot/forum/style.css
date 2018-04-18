@@ -1,0 +1,85 @@
+/* CSS Document */
+BODY {
+	color:#000000;
+	font-size:12px;
+}
+a{
+color:#000000;
+font-size:12px;
+text-decoration:none;
+
+}
+a:hover{
+color:#0066FF;
+text-decoration:none;
+}
+
+#tileA{
+color:#000000;
+font-size:14px;
+font-weight:700;
+text-decoration:none;
+}
+#tileA:hover{
+font-size:14px;
+font-weight:700;
+color:#0066FF;
+text-decoration:none;
+}
+
+
+#titleIdBottom{
+border-bottom:1px solid #77BBFF;
+}
+#Alogin{
+color:#0033FF;
+font-size:12px;
+text-decoration:none;
+}
+#Alogin:hover{
+color:#FFFFCC;
+font-size:14px;
+font-weight:700;
+text-decoration:none;
+}
+
+
+<!--µÇÈëÒ³Ãæ-->
+.register-over{
+            background-image:url(images/register-sm1.gif);
+			width:127px;
+			height:39px;
+			overflow:hidden;
+			border:0;
+			}
+.register-out{
+            background-image:url(images/register-sm2.gif);
+			width:127px;
+			height:39px;
+			overflow:hidden;
+			border:0;
+			}
+.mouseOverStyle
+{
+border:1px #3399FF solid;
+}
+.mouseOutStyle
+{
+border:1px #FF6666 solid;
+
+}
+#regUser
+{
+font-size:12px;
+color:#6cb2f5;
+}
+.register-input
+{
+border:1px #FF6666 solid;
+ 
+}
+td{
+font-size:12px;
+}
+
+
